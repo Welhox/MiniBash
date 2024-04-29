@@ -6,7 +6,7 @@
 /*   By: clundber <clundber@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:56:02 by clundber          #+#    #+#             */
-/*   Updated: 2024/04/17 18:31:33 by clundber         ###   ########.fr       */
+/*   Updated: 2024/04/29 14:08:52 by clundber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ void	handle_sigquit(bool ignored)
 {
 	struct sigaction	sa1;
 
+	ignored = true;
 	if (ignored == true)
 		sa1.sa_handler = SIG_IGN;
 	else

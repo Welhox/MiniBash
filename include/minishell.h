@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minishell.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: klukiano <klukiano@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: clundber <clundber@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/13 17:03:41 by klukiano          #+#    #+#             */
-/*   Updated: 2024/04/24 14:30:29 by klukiano         ###   ########.fr       */
+/*   Updated: 2024/04/29 14:09:57 by clundber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,10 @@
 # include <sys/wait.h>   // for wait, waitpid, wait3, wait4
 # include <stdbool.h>
 # include "../lib/libft/libft.h"
-# include <readline/readline.h>
-# include <readline/history.h>
+# include "readline/readline.h"
+# include "readline/history.h"
+/* # include <readline/readline.h>
+# include <readline/history.h> */
 
 # define YEL "\e[0;33m"
 # define CRESET "\e[0m"
