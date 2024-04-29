@@ -1,6 +1,0 @@
-chmod tips (same for all groups)
-
-no read rights: 333 -wx-wx-wx
-no write rights: 555 r-xr-xr-x
-no exec rights: 666 rw-rw-rw-
-no wr rights: 111 --x--x--x
