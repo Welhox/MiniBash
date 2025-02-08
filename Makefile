@@ -2,7 +2,9 @@ NAME = minishell
 LIBFT_PATH = ./lib/libft
 LIBFT = $(LIBFT_PATH)/libft.a
 CFLAGS = -Wall -Wextra -Werror
-HEADERS	= -I ./include -L/usr/local/lib -L${HOME}/.brew/opt/readline/lib -I/usr/local/include
+#on MAC OS use commented out header to find readline
+#HEADERS	= -I ./include -L/usr/local/lib -L${HOME}/.brew/opt/readline/lib -I/usr/local/include
+HEADERS = -I ./include -I/usr/include #-L/usr/lib/x86_64-linux-gnu
 DEBUGFLAGS = -g -fsanitize=address,undefined
 SRCS = \
  ./srcs/builtins/builtin.c ./srcs/builtins/cd_builtin.c ./srcs/builtins/env.c \
