@@ -1,4 +1,4 @@
-# Minishell  
+# MiniBash  
 
 A UNIX shell that emulates **BASH** behavior. Created in collaboration with **[@Kirkram](https://github.com/kirkram)**.
 
@@ -19,7 +19,7 @@ A UNIX shell that emulates **BASH** behavior. Created in collaboration with **[@
 
 ## 🛠️ About the Project  
 
-**Minishell** is a lightweight UNIX shell that mimics **BASH** behavior. It supports:  
+**MiniBash** is a lightweight UNIX shell that mimics **BASH** behavior. It supports:  
 
 - **Command execution** with arguments  
 - **Pipes (`|`)** to chain commands  
@@ -97,7 +97,7 @@ This will generate the `minishell` executable.
 
 ## 🖥️ Usage  
 
-Run **Minishell** by executing:  
+Run **MiniBash** by executing:  
 
 ```bash
 ./minishell
