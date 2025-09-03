@@ -67,8 +67,8 @@ Other commands are executed using the **execve()** system call.
 ### 📥 Clone the Repository  
 
 ```bash
-git clone https://github.com/Welhox/minishell.git
-cd minishell
+git clone https://github.com/Welhox/MiniBash.git
+cd MiniBash
 ```
 
 ### 🛠️ Install Dependencies  
